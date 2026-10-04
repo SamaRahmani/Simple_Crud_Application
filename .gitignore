@@ -33,5 +33,17 @@ build/
 ### VS Code ###
 .vscode/
 
+# Security & Sensitive Configuration
+*.env
+application-local.properties
+application-local.yml
+
+# Application Logs & Temporary Files
+*.log
+tmp/
+
+# Windows System Files
+Thumbs.db
+
 
 
